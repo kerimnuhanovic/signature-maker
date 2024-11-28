@@ -11,7 +11,7 @@ interface ButtonDashboardProps {
 
 export const ButtonDashboard = ({ onPreviousClick, onNextClick, isPreviousDisabled, isNextDisabled, onSaveClick, onCancelClick }: ButtonDashboardProps) => {
     return (
-        <div className="w-full sm:w-96">
+        <div className="w-2/3 sm:w-96">
             <div className='flex gap-4 mt-6'>
                 <Button onClick={onPreviousClick} disabled={isPreviousDisabled} className="w-1/2 bg-secondary-variant">
                     Previous
